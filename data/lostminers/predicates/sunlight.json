@@ -1,15 +1,8 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
+  "condition": "minecraft:location_check",
   "predicate": {
-    "location": {
-      "light": {
-        "light": 15
-      }
-    },
-    "type_specific": {
-        "type": "player",
-        "gamemode": "survival"
+    "light": {
+      "light": 15
     }
   }
 }
